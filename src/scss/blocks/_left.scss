@@ -1,0 +1,33 @@
+.left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &__button{
+        background-color: var(--color-background);
+        border-radius: 30px;
+        display: flex;
+        gap: 10px;
+        padding: 17px;
+        align-items: center;
+        width: 114px;
+        height: 56px;
+    }
+    &__menu-search{
+        background-color: var(--color-background);
+        border-radius: 30px;
+        display: flex;
+        gap: 9px;
+        padding: 17px;
+        width: 200px;
+        height: 56px;
+    }
+    &__burger-img{
+        width: 18px;
+        height: 10px;
+    }
+    &__search-icon{
+        width: 17px;
+        height: auto;
+    }
+}

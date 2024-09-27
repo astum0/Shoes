@@ -1,0 +1,52 @@
+.right{
+    display: flex;
+    align-items: center;
+    gap: 46px;
+    &__icons{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+    &__buttons{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        gap: 10px;
+        height: 30px;
+        &-lang{
+            background-color: var(--color-background);
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 15px;
+        }
+        &-usd{
+            background-color: var(--color-background);
+            border-radius: 18px;
+            display: flex;
+            gap: 6px;
+            padding: 8px 15px;
+            align-items: center;
+        }
+    }
+    &__lang-icon{
+        width: 10px;
+        height: 6px;
+    }
+    &__usd-icon{
+        width: 10px;
+        height: 6px;
+    }
+    &__notification{
+        background-color: #F67280;
+        height: 28px;
+        width: 28px;
+        border-radius: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
