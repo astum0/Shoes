@@ -8,6 +8,7 @@
     }
     &__block-left{
         padding: 44px 0px 0px 73px;
+        width: 490px;
     }
     &__title{
         font-size: 52px;
@@ -30,4 +31,25 @@
         gap: 13px;
         align-items: center;
     }
+    &__block-center{
+        margin-left: 328px;
+        z-index: 9999;
+        position:absolute;
+    }
+    &__right-img{
+        width: 505px;
+        height: 420px;
+        position: absolute;
+        top: 131px;
+        left: 985px;
+    }
+    &__right-text{
+        font-size: 307px;
+        font-weight: 700;
+        color: #F5CF94;
+        position: absolute;
+        top: 185px;
+        left: 965px;
+    }
+    
 }
